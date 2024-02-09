@@ -17,14 +17,14 @@ Moreover, MS MARCO Web Search also offers 5 times larger real click labels for t
 
 ## Citation
 
-If you use the MS MARCO Web Search dataset, or any dataset derived from it, please cite the [paper](https://arxiv.org/abs/1611.09268):
+If you use the MS MARCO Web Search dataset, or any dataset derived from it, please cite the [paper](https://arxiv.org/abs/XXX):
 
 @article{XXX,  
   title={MS MARCO Web Search: A Large-scale Information-rich Web Dataset with Millions of Real Click Labels},  
   author={Qi Chen, Xiubo Geng, Corby Rosset, Carolyn Buractaon, Jingwen Lu, Tao Shen, Kun Zhou, Chenyan Xiong, Yeyun Gong1, Paul Bennett, Nick Craswell, Xing Xie, Fan Yang, Bryan Tower, Nikhil Rao, Anlei Dong, Wenqi Jiang, Zheng Liu, 
   Mingqin Li, Chuanjie Liu, Jason Li, Rangan Majumder, Jennifer Neville, Andy Oakley, Knut Magne Risvik, Harsha Vardhan Simhadri, Manik Varma, Yujing Wang, Linjun Yang, Mao Yang, Ce Zhang},  
   journal={arXiv preprint arXiv:XXX},  
-  year={2023}  
+  year={2024}  
 }  
 
 ## Tasks
@@ -83,8 +83,8 @@ including an embedding model plus ANN system, inverted index solution, hybrid so
 | Dev    | [qrels_dev.tsv](https://msmarco.z22.web.core.windows.net/msmarcowebsearch/100M_queries/qrels_dev.tsv)          |    173.19 KB |                   9,402  | TREC qrels format                                              |
 | Test    | [queries_test.tsv](https://msmarco.z22.web.core.windows.net/msmarcowebsearch/100M_queries/queries_test.tsv)          |     734.33 KB |                   9,374  | tsv: qid, query, languages       |
 | Test    | [qrels_test.tsv](https://msmarco.z22.web.core.windows.net/msmarcowebsearch/100M_queries/qrels_test.tsv)          |   180.32 KB |                  9,374 | TREC qrels format       |
-| Document Embedding Vectors | [vectors.bin, metaidx.bin, meta.bin](https://msmarco.z22.web.core.windows.net/msmarcowebsearch/vectors/SimANS/passage_vectors/) | 289.16GB | 100,924,960 | [Binary Format](https://github.com/microsoft/SPTAG/blob/main/docs/GettingStart.md#input-file-format) |
-| Query Embedding Vectors | [vectors.bin, metaidx.bin, meta.bin](https://msmarco.z22.web.core.windows.net/msmarcowebsearch/vectors/SimANS/query_vectors/) | 27.47 MB | 9,374 | [Binary Format](https://github.com/microsoft/SPTAG/blob/main/docs/GettingStart.md#input-file-format) |
+| Document Embedding Vectors | [vectors.bin](https://msmarco.z22.web.core.windows.net/msmarcowebsearch/vectors/SimANS/passage_vectors/vectors.bin), [metaidx.bin](https://msmarco.z22.web.core.windows.net/msmarcowebsearch/vectors/SimANS/passage_vectors/metaidx.bin), [meta.bin](https://msmarco.z22.web.core.windows.net/msmarcowebsearch/vectors/SimANS/passage_vectors/meta.bin) | 289.16GB | 100,924,960 | [Binary Format](https://github.com/microsoft/SPTAG/blob/main/docs/GettingStart.md#input-file-format) |
+| Query Embedding Vectors | [vectors.bin](https://msmarco.z22.web.core.windows.net/msmarcowebsearch/vectors/SimANS/query_vectors/vectors.bin), [metaidx.bin](https://msmarco.z22.web.core.windows.net/msmarcowebsearch/vectors/SimANS/query_vectors/metaidx.bin), [meta.bin](https://msmarco.z22.web.core.windows.net/msmarcowebsearch/vectors/SimANS/query_vectors/meta.bin) | 27.47 MB | 9,374 | [Binary Format](https://github.com/microsoft/SPTAG/blob/main/docs/GettingStart.md#input-file-format) |
 | Embedding Retrieval Truth | [truth.txt](https://msmarco.z22.web.core.windows.net/msmarcowebsearch/vectors/SimANS/truth.txt) | 7.97 MB | 9,374 | [Truth Format](https://github.com/microsoft/SPTAG/blob/main/docs/GettingStart.md#input-file-format) |
 
 ### 10B dataset
