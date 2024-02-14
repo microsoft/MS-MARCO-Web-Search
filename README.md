@@ -70,7 +70,8 @@ including an embedding model plus ANN system, inverted index solution, hybrid so
 |[SimANS](https://github.com/microsoft/SimXNS/tree/main/SimANS) + [SPANN](https://github.com/microsoft/SPTAG) | 0.585 | 50.63% | 68.79% | 73.14% | 75.85% | 79.82% |625 | 21.924 ms | 23.017 ms | 34.217 ms |
 
 ## Datasets
-<details><summary>Accept the terms and the licenses to see the download links of datasets<summary>
+<details>
+<summary>Accept the terms and the licenses to see the download links of datasets</summary>
 
 ### 100M dataset
 
