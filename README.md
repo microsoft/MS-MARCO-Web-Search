@@ -70,6 +70,7 @@ including an embedding model plus ANN system, inverted index solution, hybrid so
 |[SimANS](https://github.com/microsoft/SimXNS/tree/main/SimANS) + [SPANN](https://github.com/microsoft/SPTAG) | 0.585 | 50.63% | 68.79% | 73.14% | 75.85% | 79.82% |625 | 21.924 ms | 23.017 ms | 34.217 ms |
 
 ## Datasets
+<details><summary>Accept the terms and the licenses to see the download links of datasets<summary>
 
 ### 100M dataset
 
@@ -99,12 +100,12 @@ including an embedding model plus ANN system, inverted index solution, hybrid so
 | Test    | [queries_test.tsv](https://msmarco.z22.web.core.windows.net/msmarcowebsearch/100M_queries/queries_test.tsv)          |     734.33 KB |                   9,374  | tsv: qid, query, languages       |
 | Test    | [qrels_test.tsv](https://msmarco.z22.web.core.windows.net/msmarcowebsearch/10B_queries/qrels_test.tsv)          |   2.65 MB |                  40,511 | TREC qrels format       |
 
-
 ### Use of external information
 
 IMPORTANT NOTE: You are allowed to use external information while developing your runs.
 However, it is prohibited to use any datasets in your submission except those listed above.
 The original MS MARCO Web Search dataset reveals minor details of how the dataset was constructed that would not be available in a real-world search engine; hence, should be avoided.
+</details>
 
 # Notice
 
@@ -154,3 +155,5 @@ Privacy information can be found at <https://privacy.microsoft.com/en-us/>.
 
 Microsoft and any contributors reserve all other rights, whether under their respective copyrights, patents,
 or trademarks, whether by implication, estoppel or otherwise.
+
+
