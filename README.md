@@ -71,7 +71,7 @@ including an embedding model plus ANN system, inverted index solution, hybrid so
 
 ## Datasets
 <details>
-<summary>Accept the terms and the licenses to see the download links of datasets</summary>
+<summary>I confirm that I accept the terms and the licenses. Click to see the download links of datasets</summary>
 
 ### 100M dataset
 
