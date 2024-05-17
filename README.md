@@ -17,7 +17,7 @@ Moreover, MS MARCO Web Search also offers 5 times larger real click labels for t
 
 ## Citation
 
-If you use the MS MARCO Web Search dataset, or any dataset derived from it, please cite the [paper](https://arxiv.org/abs/XXX):
+If you use the MS MARCO Web Search dataset, or any dataset derived from it, please cite the [paper](https://arxiv.org/abs/2405.07526):
 
 @article{XXX,  
   title={MS MARCO Web Search: A Large-scale Information-rich Web Dataset with Millions of Real Click Labels},  
