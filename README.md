@@ -17,16 +17,14 @@ Moreover, MS MARCO Web Search also offers 5 times larger real click labels for t
 
 ## Citation
 
-If you use the MS MARCO Web Search dataset, or any dataset derived from it, please cite the [paper](https://arxiv.org/abs/XXX):
-
-@article{XXX,  
-  title={MS MARCO Web Search: A Large-scale Information-rich Web Dataset with Millions of Real Click Labels},  
-  author={Qi Chen, Xiubo Geng, Corby Rosset, Carolyn Buractaon, Jingwen Lu, Tao Shen, Kun Zhou, Chenyan Xiong, Yeyun Gong1, Paul Bennett, Nick Craswell, Xing Xie, Fan Yang, Bryan Tower, Nikhil Rao, Anlei Dong, Wenqi Jiang, Zheng Liu, 
-  Mingqin Li, Chuanjie Liu, Jason Li, Rangan Majumder, Jennifer Neville, Andy Oakley, Knut Magne Risvik, Harsha Vardhan Simhadri, Manik Varma, Yujing Wang, Linjun Yang, Mao Yang, Ce Zhang},  
-  journal={arXiv preprint arXiv:XXX},  
-  year={2024}  
-}  
-
+If you use the MS MARCO Web Search dataset, or any dataset derived from it, please cite the [paper](https://arxiv.org/abs/2405.07526):
+@inproceedings{MSMARCOWEBSEARCH_2024, 
+   series={WWW ’24},
+   title={MS MARCO Web Search: A Large-scale Information-rich Web Dataset with Millions of Real Click Labels},
+   booktitle={Companion Proceedings of the ACM on Web Conference 2024},
+   author={Chen, Qi and Geng, Xiubo and Rosset, Corby and Buractaon, Carolyn and Lu, Jingwen and Shen, Tao and Zhou, Kun and Xiong, Chenyan and Gong, Yeyun and Bennett, Paul and Craswell, Nick and Xie, Xing and Yang, Fan and Tower, Bryan and Rao, Nikhil and Dong, Anlei and Jiang, Wenqi and Liu, Zheng and Li, Mingqin and Liu, Chuanjie and Li, Zengzhong and Majumder, Rangan and Neville, Jennifer and Oakley, Andy and Risvik, Knut Magne and Simhadri, Harsha Vardhan and Varma, Manik and Wang, Yujing and Yang, Linjun and Yang, Mao and Zhang, Ce},
+   year={2024},
+}
 ## Tasks
 
 There are three tasks: embedding model, embedding retrieval, and end-to-end retrieval rankings.
